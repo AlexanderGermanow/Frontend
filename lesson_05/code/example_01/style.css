@@ -1,0 +1,28 @@
+.block1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    z-index: 1;
+}
+.block2 {
+    width: 200px;
+    height: 200px;
+    background-color: bisque ;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    z-index: -1;
+}
+.block3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position:absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.block4 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
