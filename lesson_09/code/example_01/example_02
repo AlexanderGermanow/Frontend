@@ -1,0 +1,66 @@
+// arrays
+
+const arr1 = [1, 4, 98, "abc", null, undefined, [1, 2, 3]];
+
+console.log(arr1[2]);
+console.log(arr1[6][2]);
+
+console.log(arr1.length);
+
+//
+const newLength = arr1.push(777);
+console.log(arr1);
+console.log(newLength);
+
+//
+arr1.pop();
+console.log(arr1.pop);
+console.log(arr1);
+
+//
+arr1.unshift("erste");
+console.log(arr1);
+
+//
+arr1.shift();
+console.log(arr1);
+
+//
+const months = ['Jan', 'March', 'April', 'Juni'];
+months.splice(1, 0, 'Feb'); //
+console.log(months);
+
+//
+console.log(months.reverse());
+console.log(months.reverse());
+
+//
+months.splice(1, 1);
+console.log(months);
+
+//
+const doubleArr = [
+    [1, 2, 3], 
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(doubleArr[0][2]);
+console.log(doubleArr[2][1]);
+
+
+//
+const arrC = [1, 2, 3];
+const arrY = [4, 5, 6];
+
+const arr3 = [...arrC, ...arrY];
+
+console.log(arr3);
+
+console.log(Math.max(...arr3));
+
+let a;
+let b;
+let c; 
+[a, b, c] = [...arrC];
+
+console.log(b);
