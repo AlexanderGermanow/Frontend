@@ -1,0 +1,60 @@
+.block1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    z-index: 1;
+}
+.block2 {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.block3 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    right: 75px;
+    top: 0px;
+    top: calc(50% - 12.5px);
+}
+
+.block4 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: relative;
+}
+
+.block5 {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.block6 {
+    background-color: gray;
+    width: 100%px;
+    height: 250px;
+    border: solid red 5px;
+    border-color: violet;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.block7 {
+    width: 25px;
+    height: 25px;
+    background-color: blueviolet;
+    right: 0px;
+    bottom: calc(50% - 1212.5px);
+    position: fixed;
+}
